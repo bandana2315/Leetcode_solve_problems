@@ -1,7 +1,7 @@
 class Solution {
 public:
     double myPow(double x, int n) {
-        double ans=1.0;
+       double ans=1.0;
         if(n==0)return 1;
         else if(abs(x)==1 && n%2==0) return abs(x);
         else if(abs(x)==1 && n%2!=0) return (x);
